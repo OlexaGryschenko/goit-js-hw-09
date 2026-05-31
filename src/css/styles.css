@@ -41,3 +41,27 @@
 .main-title{
   color: blue;
 }
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-form button {
+  padding: 8px 16px;
+  align-self: flex-start;
+  cursor: pointer;
+}
